@@ -3,7 +3,7 @@ import { Provider } from '@web3-ui/core';
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Provider network={4}>
+    <Provider network={1}>
       <Component {...pageProps} />
     </Provider>
   );
